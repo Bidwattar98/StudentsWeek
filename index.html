@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GCECT Students' Week</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/images/GcectLogo.png" />
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -23,7 +24,10 @@
 
     <div id="home" class="content">
       <h1>Welcome to Students' Week!</h1>
-      <p>Download the <a href="schedule.pdf" download>Schedule</a>.</p>
+      <p>
+        Download the
+        <a href="assets/downloadable/Schedule.pdf" download>Schedule</a>.
+      </p>
       <p>
         Register now:
         <a href="https://forms.gle/nLwraWXAdKiLH3bY9" target="_blank"
@@ -48,15 +52,15 @@
     <div id="gallery" class="content">
       <h1>Gallery</h1>
       <div class="gallery">
-        <img src="event1.jpg" alt="Event 1" />
-        <img src="event2.jpg" alt="Event 2" />
-        <img src="event3.jpg" alt="Event 3" />
+        <img src="assets/images/GcectLogo.png" alt="Event 1" />
+        <img src="assets/images/GcectLogo.png" alt="Event 2" />
+        <img src="assets/images/GcectLogo.png" alt="Event 3" />
       </div>
     </div>
 
     <div id="contact" class="content">
       <h1>Contact Us</h1>
-      <form class="feedback-form">
+      <form class="feedback-form" id="feedback-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
 
